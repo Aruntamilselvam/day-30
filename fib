@@ -1,0 +1,14 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        ArrayList<Integer> a=new ArrayList<>();
+        a.add(0);
+        a.add(1);
+        int i=1;
+        while(a.get(i)+a.get(i-1)<50){
+           a.add(a.get(i-1)+a.get(i-0));
+           i++;
+        }
+        System.out.println(a);
+    }
+}
